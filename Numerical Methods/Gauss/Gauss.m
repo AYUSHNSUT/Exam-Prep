@@ -1,3 +1,4 @@
+%input matrix from command line
 function answer = Gauss(A,b)
   Matt = [A, b];
   [nr,nc] = size(A);
